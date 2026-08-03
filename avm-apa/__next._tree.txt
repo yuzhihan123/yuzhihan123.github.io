@@ -1,0 +1,3 @@
+:HL["/_next/static/chunks/0c3779vrv.n0u.css","style"]
+:HL["/fonts/archivo-black.woff2","font",{"crossOrigin":"anonymous","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"avm-apa","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"KC6Ih3VjMieR7R5YCy6ZP"}
