@@ -11,13 +11,23 @@
     "name": "rolldown-runtime"
   },
   "app/page.tsx": {
-    "file": "assets/page-C6iYlOlG.js",
+    "file": "assets/page-CfTv_9H2.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "components/avm-apa/AvmApaDetail.tsx",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "components/about-me/AboutMeDetail.tsx": {
+    "file": "assets/AboutMeDetail-ERqb8QOO.js",
+    "name": "AboutMeDetail",
+    "src": "components/about-me/AboutMeDetail.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
       "_framework-CXnKph_e.js"
     ]
   },
@@ -32,7 +42,7 @@
     ]
   },
   "components/avm-apa/TransitionController.tsx": {
-    "file": "assets/TransitionController-Dxb12yK-.js",
+    "file": "assets/TransitionController-B0cySQ6s.js",
     "name": "TransitionController",
     "src": "components/avm-apa/TransitionController.tsx",
     "isDynamicEntry": true,
@@ -42,7 +52,7 @@
     ]
   },
   "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._6e29d3c1e221dce46ffd79bec19b99c1/node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-DzsE9nTF.js",
+    "file": "assets/layout-segment-context-C73IKl6E.js",
     "name": "layout-segment-context",
     "src": "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._6e29d3c1e221dce46ffd79bec19b99c1/node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -53,7 +63,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-CGTSZD9t.js",
+    "file": "assets/index-Cub2FrV1.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -62,6 +72,7 @@
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
+      "components/about-me/AboutMeDetail.tsx",
       "virtual:vinext-app-browser-entry",
       "app/page.tsx",
       "components/avm-apa/TransitionController.tsx",
