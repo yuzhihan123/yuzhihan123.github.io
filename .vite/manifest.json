@@ -51,8 +51,18 @@
       "_framework-CXnKph_e.js"
     ]
   },
+  "components/dji-avata-360/InteractionSequenceViewer.tsx": {
+    "file": "assets/InteractionSequenceViewer-DQ5DdxfM.js",
+    "name": "InteractionSequenceViewer",
+    "src": "components/dji-avata-360/InteractionSequenceViewer.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._6e29d3c1e221dce46ffd79bec19b99c1/node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-Dr271kkd.js",
+    "file": "assets/layout-segment-context-B_E4-2Rq.js",
     "name": "layout-segment-context",
     "src": "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._6e29d3c1e221dce46ffd79bec19b99c1/node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -63,7 +73,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-BVsw7ATE.js",
+    "file": "assets/index-DL8FEllb.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -75,6 +85,7 @@
       "components/about-me/AboutMeDetail.tsx",
       "virtual:vinext-app-browser-entry",
       "app/page.tsx",
+      "components/dji-avata-360/InteractionSequenceViewer.tsx",
       "components/avm-apa/TransitionController.tsx",
       "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._6e29d3c1e221dce46ffd79bec19b99c1/node_modules/vinext/dist/shims/layout-segment-context.js",
       "components/avm-apa/AvmApaDetail.tsx"
