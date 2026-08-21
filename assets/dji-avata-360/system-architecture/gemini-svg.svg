@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 950" width="100%" height="100%">
+  <defs>
+    <!-- 引入 Geologica 字体 -->
+    <style>
+      text {
+        font-family: 'Alibaba PuHuiTi', 'Alibaba PuHuiTi 2.0', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+        fill: #1e293b;
+      }
+      .title { font-weight: 600; font-size: 18px; fill: #0f172a; }
+      .subtitle { font-weight: 400; font-size: 14px; fill: #475569; }
+      .node-text { font-weight: 500; font-size: 16px; }
+      .node-subtext { font-weight: 400; font-size: 14px; fill: #64748b; }
+      .link-text { font-weight: 500; font-size: 14px; fill: #334155; }
+      .container-bg { fill: transparent; stroke: #cbd5e1; stroke-width: 2; rx: 12; }
+      .node-bg { fill: transparent; stroke: #94a3b8; stroke-width: 1.5; rx: 8; }
+      .node-dashed-bg { fill: transparent; stroke: #94a3b8; stroke-width: 2; stroke-dasharray: 6 4; rx: 8; }
+      .line { fill: none; stroke: #475569; stroke-width: 2; }
+      .line-dashed { fill: none; stroke: #64748b; stroke-width: 2; stroke-dasharray: 6 4; }
+      .bg-mask { fill: transparent; }
+    </style>
+    
+    <!-- 节点柔和投影 -->
+    <filter id="drop-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
+    
+    <!-- 优化后的强指向性箭头 (飞镖形) -->
+    <!-- 实线专属箭头 -->
+    <marker id="arrow-solid" viewBox="0 0 16 16" refX="14" refY="8" markerWidth="11" markerHeight="11" orient="auto">
+      <path d="M 2 2 L 15 8 L 2 14 L 6 8 z" fill="#475569" />
+    </marker>
+    <!-- 虚线专属箭头 -->
+    <marker id="arrow-dashed" viewBox="0 0 16 16" refX="14" refY="8" markerWidth="11" markerHeight="11" orient="auto">
+      <path d="M 2 2 L 15 8 L 2 14 L 6 8 z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <!-- 画布背景 -->
+  <!-- ================= 飞行阶段 ================= -->
+  <rect x="40" y="40" width="1320" height="430" class="container-bg" />
+  
+  <!-- 阶段标签 -->
+  <path d="M 40 40 h 120 a 8 8 0 0 1 8 8 v 22 h -128 z" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2" />
+  <rect x="40" y="40" width="130" height="34" fill="#e2e8f0" rx="8" />
+  <text x="60" y="63" class="title">飞行阶段</text>
+  <text x="60" y="100" class="subtitle">[包含4种主控组合，主控组合四选一]</text>
+
+  <!-- 顶部手机节点 (虚线) -->
+  <rect x="680" y="60" width="580" height="60" class="node-dashed-bg" />
+  <text x="970" y="85" class="node-text" text-anchor="middle">手机DJI Fly</text>
+  <text x="970" y="105" class="node-subtext" text-anchor="middle">(激活、固件升级、设备管理、图传分享)</text>
+
+  <!-- 4种主控组合节点 -->
+  <!-- A -->
+  <rect x="80" y="210" width="280" height="70" class="node-bg" />
+  <text x="220" y="240" class="node-text" text-anchor="middle">A. DJI RC 2</text>
+  <text x="220" y="265" class="node-subtext" text-anchor="middle">(内置屏幕与 DJI Fly)</text>
+
+  <!-- B -->
+  <rect x="390" y="210" width="280" height="70" class="node-bg" />
+  <text x="530" y="250" class="node-text" text-anchor="middle">B. RC-N2/N3 + 手机DJI Fly</text>
+
+  <!-- C -->
+  <rect x="700" y="210" width="280" height="70" class="node-bg" />
+  <text x="840" y="250" class="node-text" text-anchor="middle">C. Goggles 3/N3 + RC Motion 3</text>
+
+  <!-- D -->
+  <rect x="1010" y="210" width="280" height="70" class="node-bg" />
+  <text x="1150" y="250" class="node-text" text-anchor="middle">D. Goggles 3/N3 + FPV Remote Controller 3</text>
+
+  <!-- 无人机核心节点 -->
+  <rect x="80" y="380" width="1210" height="70" class="node-bg" />
+  <text x="685" y="410" class="node-text" text-anchor="middle">DJI AVATA 360</text>
+  <text x="685" y="435" class="node-subtext" text-anchor="middle">(飞行、感知、拍摄与核心计算)</text>
+
+  <!-- 连线：顶部手机 -> 眼镜 -->
+  <path d="M 970 120 L 970 150 L 840 150 L 840 200" class="line-dashed" marker-end="url(#arrow-dashed)" />
+  <path d="M 970 150 L 1150 150 L 1150 200" class="line-dashed" marker-end="url(#arrow-dashed)" />
+  <!-- 文字遮罩与文本 -->
+  <rect x="710" y="140" width="520" height="20" class="bg-mask" />
+  <text x="970" y="155" class="link-text" text-anchor="middle">↑↓ USB-C: 激活、固件升级与设备管理； ↑ USB-C / Wi-Fi: 眼镜图传分享</text>
+
+  <!-- 连线：无人机 -> 主控组合 -->
+  <path d="M 685 380 L 685 360 L 220 360 L 220 290" class="line" marker-end="url(#arrow-solid)" />
+  <path d="M 685 360 L 530 360 L 530 290" class="line" marker-end="url(#arrow-solid)" />
+  <path d="M 685 360 L 840 360 L 840 290" class="line" marker-end="url(#arrow-solid)" />
+  <path d="M 685 360 L 1150 360 L 1150 290" class="line" marker-end="url(#arrow-solid)" />
+
+  <!-- O4 链路文字标签 (带遮罩切断线条) -->
+  <rect x="150" y="325" width="450" height="24" class="bg-mask" />
+  <text x="375" y="342" class="link-text" text-anchor="middle">O4+双向链路：↓ 飞行与拍摄控制； ↑ 实时图传、遥测、告警</text>
+
+  <rect x="690" y="325" width="300" height="24" class="bg-mask" />
+  <text x="840" y="342" class="link-text" text-anchor="middle">O4+双向链路：↓ 体感与拍摄控制； ↑ 沉浸式图传、遥测、告警</text>
+
+  <rect x="1000" y="325" width="300" height="24" class="bg-mask" />
+  <text x="1150" y="342" class="link-text" text-anchor="middle">O4+双向链路：↓ 双摇杆与拍摄控制； ↑ 沉浸式图传、遥测、告警</text>
+
+
+  <!-- ================= 素材存储与后期处理 ================= -->
+  <rect x="40" y="490" width="1320" height="420" class="container-bg" />
+  
+  <!-- 阶段标签 -->
+  <rect x="40" y="490" width="200" height="34" fill="#e2e8f0" rx="8" />
+  <text x="60" y="513" class="title">素材存储与后期处理</text>
+
+  <!-- 拍摄写入引导 -->
+  <text x="700" y="540" class="title" text-anchor="middle">拍摄时写入</text>
+  <path d="M 700 550 L 700 575" class="line" marker-end="url(#arrow-solid)" />
+
+  <!-- 核心存储节点 -->
+  <rect x="300" y="585" width="800" height="70" class="node-bg" />
+  <text x="700" y="615" class="node-text" text-anchor="middle">DJI AVATA 360 机身 / MicroSD</text>
+  <text x="700" y="640" class="node-subtext" text-anchor="middle">(存储 OSV 全景素材 和 MP4 平面素材)</text>
+
+  <!-- 底部 App 节点 -->
+  <rect x="150" y="780" width="400" height="70" class="node-bg" />
+  <text x="350" y="810" class="node-text" text-anchor="middle">手机 DJI Fly App</text>
+  <text x="350" y="835" class="node-subtext" text-anchor="middle">(素材导入、编辑与导出)</text>
+
+  <rect x="850" y="780" width="400" height="70" class="node-bg" />
+  <text x="1050" y="810" class="node-text" text-anchor="middle">电脑 DJI Studio</text>
+  <text x="1050" y="835" class="node-subtext" text-anchor="middle">(素材导入、编辑与导出)</text>
+
+  <!-- 数据流转连线 -->
+  <path d="M 700 655 L 700 710 L 350 710 L 350 770" class="line" marker-end="url(#arrow-solid)" />
+  <path d="M 700 710 L 1050 710 L 1050 770" class="line" marker-end="url(#arrow-solid)" />
+
+  <!-- 传输协议标签 -->
+  <rect x="420" y="695" width="180" height="30" class="bg-mask" />
+  <text x="510" y="715" class="node-text" text-anchor="middle">Wi-Fi QuickTransfer</text>
+
+  <rect x="780" y="695" width="160" height="30" class="bg-mask" />
+  <text x="860" y="715" class="node-text" text-anchor="middle">USB-C / MicroSD</text>
+
+</svg>
