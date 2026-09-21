@@ -1,8 +1,8 @@
 {
-  "../../../Codex/portfolio-preview-source/node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._67aa13a041cb340aa114f5f24aa08bf9/node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-CxBl24Lb.js",
+  "../../../Users/mac/Documents/Codex/portfolio-preview-source/node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._67aa13a041cb340aa114f5f24aa08bf9/node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "assets/layout-segment-context-Dun5GvcO.js",
     "name": "layout-segment-context",
-    "src": "../../../Codex/portfolio-preview-source/node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._67aa13a041cb340aa114f5f24aa08bf9/node_modules/vinext/dist/shims/layout-segment-context.js",
+    "src": "../../../Users/mac/Documents/Codex/portfolio-preview-source/node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._67aa13a041cb340aa114f5f24aa08bf9/node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -10,31 +10,31 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "../../../Codex/portfolio-preview-source/node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._67aa13a041cb340aa114f5f24aa08bf9/node_modules/vinext/dist/shims/router.js": {
-    "file": "assets/router-Bbo2GfG8.js",
+  "../../../Users/mac/Documents/Codex/portfolio-preview-source/node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._67aa13a041cb340aa114f5f24aa08bf9/node_modules/vinext/dist/shims/router.js": {
+    "file": "assets/router-BYHo-hTY.js",
     "name": "router",
-    "src": "../../../Codex/portfolio-preview-source/node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._67aa13a041cb340aa114f5f24aa08bf9/node_modules/vinext/dist/shims/router.js",
+    "src": "../../../Users/mac/Documents/Codex/portfolio-preview-source/node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._67aa13a041cb340aa114f5f24aa08bf9/node_modules/vinext/dist/shims/router.js",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
       "_framework-CXnKph_e.js",
-      "_link-CCM9Oh54.js"
+      "_link-BGmaY6u7.js"
     ],
     "dynamicImports": [
       "_framework-CXnKph_e.js"
     ]
   },
-  "_DjiHeroMedia-DChylcdU.js": {
-    "file": "assets/DjiHeroMedia-DChylcdU.js",
+  "_DjiHeroMedia-BnLYFEAT.js": {
+    "file": "assets/DjiHeroMedia-BnLYFEAT.js",
     "name": "DjiHeroMedia",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_framework-CXnKph_e.js"
     ]
   },
-  "_DjiProjectHeader-CTwgG3IT.js": {
-    "file": "assets/DjiProjectHeader-CTwgG3IT.js",
+  "_DjiProjectHeader-CV_z6L0g.js": {
+    "file": "assets/DjiProjectHeader-CV_z6L0g.js",
     "name": "DjiProjectHeader",
     "imports": [
       "_framework-CXnKph_e.js"
@@ -47,8 +47,8 @@
       "_rolldown-runtime-S-ySWqyJ.js"
     ]
   },
-  "_link-CCM9Oh54.js": {
-    "file": "assets/link-CCM9Oh54.js",
+  "_link-BGmaY6u7.js": {
+    "file": "assets/link-BGmaY6u7.js",
     "name": "link",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -56,7 +56,7 @@
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
-      "../../../Codex/portfolio-preview-source/node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._67aa13a041cb340aa114f5f24aa08bf9/node_modules/vinext/dist/shims/router.js"
+      "../../../Users/mac/Documents/Codex/portfolio-preview-source/node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._67aa13a041cb340aa114f5f24aa08bf9/node_modules/vinext/dist/shims/router.js"
     ]
   },
   "_rolldown-runtime-S-ySWqyJ.js": {
@@ -64,18 +64,18 @@
     "name": "rolldown-runtime"
   },
   "app/page.tsx": {
-    "file": "assets/page-DvkwUKmk.js",
+    "file": "assets/page-BF0vudud.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "components/avm-apa/AvmApaDetail.tsx",
-      "_framework-CXnKph_e.js"
+      "_framework-CXnKph_e.js",
+      "components/avm-apa/AvmApaDetail.tsx"
     ]
   },
   "components/about-me/AboutMeDetail.tsx": {
-    "file": "assets/AboutMeDetail-ERqb8QOO.js",
+    "file": "assets/AboutMeDetail-CvB5rU5v.js",
     "name": "AboutMeDetail",
     "src": "components/about-me/AboutMeDetail.tsx",
     "isDynamicEntry": true,
@@ -85,21 +85,21 @@
     ]
   },
   "components/agent-lab/AgentLabWorkspace.tsx": {
-    "file": "assets/AgentLabWorkspace-JOW7V0As.js",
+    "file": "assets/AgentLabWorkspace-DqcgvNxX.js",
     "name": "AgentLabWorkspace",
     "src": "components/agent-lab/AgentLabWorkspace.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_framework-CXnKph_e.js",
-      "_link-CCM9Oh54.js"
+      "_link-BGmaY6u7.js"
     ],
     "css": [
       "assets/AgentLabWorkspace-CtYPxfXk.css"
     ]
   },
   "components/avm-apa/AvmApaDetail.tsx": {
-    "file": "assets/AvmApaDetail-DybP0XU_.js",
+    "file": "assets/AvmApaDetail-CEerx_TU.js",
     "name": "AvmApaDetail",
     "src": "components/avm-apa/AvmApaDetail.tsx",
     "isDynamicEntry": true,
@@ -109,7 +109,7 @@
     ]
   },
   "components/avm-apa/TransitionController.tsx": {
-    "file": "assets/TransitionController-HX_4y86W.js",
+    "file": "assets/TransitionController-CZJnLwVM.js",
     "name": "TransitionController",
     "src": "components/avm-apa/TransitionController.tsx",
     "isDynamicEntry": true,
@@ -119,19 +119,19 @@
     ]
   },
   "components/dji-avata-360/DjiAvata360Detail.tsx": {
-    "file": "assets/DjiAvata360Detail-6V9huLR2.js",
+    "file": "assets/DjiAvata360Detail-CDkRaM1C.js",
     "name": "DjiAvata360Detail",
     "src": "components/dji-avata-360/DjiAvata360Detail.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_DjiHeroMedia-DChylcdU.js",
-      "_DjiProjectHeader-CTwgG3IT.js",
-      "_framework-CXnKph_e.js"
+      "_framework-CXnKph_e.js",
+      "_DjiHeroMedia-BnLYFEAT.js",
+      "_DjiProjectHeader-CV_z6L0g.js"
     ]
   },
   "components/dji-avata-360/InteractionSequenceViewer.tsx": {
-    "file": "assets/InteractionSequenceViewer-CHg-wULq.js",
+    "file": "assets/InteractionSequenceViewer-Dg5SmSDW.js",
     "name": "InteractionSequenceViewer",
     "src": "components/dji-avata-360/InteractionSequenceViewer.tsx",
     "isDynamicEntry": true,
@@ -141,7 +141,7 @@
     ]
   },
   "components/dji-avata-360/RTHExperienceSimulator.tsx": {
-    "file": "assets/RTHExperienceSimulator-DSW0VXQs.js",
+    "file": "assets/RTHExperienceSimulator-CQcI9MYQ.js",
     "name": "RTHExperienceSimulator",
     "src": "components/dji-avata-360/RTHExperienceSimulator.tsx",
     "isDynamicEntry": true,
@@ -155,7 +155,7 @@
     ]
   },
   "components/dji-avata-360/RTHThreeScene.tsx": {
-    "file": "assets/RTHThreeScene-BvwC53WI.js",
+    "file": "assets/RTHThreeScene-EZ1x-DaE.js",
     "name": "RTHThreeScene",
     "src": "components/dji-avata-360/RTHThreeScene.tsx",
     "isDynamicEntry": true,
@@ -165,19 +165,22 @@
     ]
   },
   "components/stagesync/StageSyncDetail.tsx": {
-    "file": "assets/StageSyncDetail-DquwsMxG.js",
+    "file": "assets/StageSyncDetail-BKSC_3HN.js",
     "name": "StageSyncDetail",
     "src": "components/stagesync/StageSyncDetail.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_DjiProjectHeader-CTwgG3IT.js",
       "_framework-CXnKph_e.js",
-      "_link-CCM9Oh54.js"
+      "_link-BGmaY6u7.js",
+      "_DjiProjectHeader-CV_z6L0g.js"
+    ],
+    "css": [
+      "assets/StageSyncDetail-BuLuDBz6.css"
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-B_b2ys2f.js",
+    "file": "assets/index-MG2a8L6s.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -190,14 +193,14 @@
       "app/page.tsx",
       "virtual:vinext-app-browser-entry",
       "components/dji-avata-360/RTHExperienceSimulator.tsx",
+      "../../../Users/mac/Documents/Codex/portfolio-preview-source/node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._67aa13a041cb340aa114f5f24aa08bf9/node_modules/vinext/dist/shims/layout-segment-context.js",
       "components/dji-avata-360/InteractionSequenceViewer.tsx",
       "components/agent-lab/AgentLabWorkspace.tsx",
       "components/avm-apa/TransitionController.tsx",
       "components/stagesync/StageSyncDetail.tsx",
       "components/avm-apa/AvmApaDetail.tsx",
       "components/dji-avata-360/DjiAvata360Detail.tsx",
-      "_DjiHeroMedia-DChylcdU.js",
-      "../../../Codex/portfolio-preview-source/node_modules/.pnpm/vinext@0.0.50_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild@0.28._67aa13a041cb340aa114f5f24aa08bf9/node_modules/vinext/dist/shims/layout-segment-context.js"
+      "_DjiHeroMedia-BnLYFEAT.js"
     ]
   }
 }
